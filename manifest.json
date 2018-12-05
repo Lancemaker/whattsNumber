@@ -5,7 +5,7 @@
     "permissions": ["tabs","https://*/*","http://*/*"],
     "content_scripts": [
         {
-        "matches": ["https://convergeyou.freshsales.io/*"],
+        "matches": ["https://*/*"],
         "js": ["background.js"],
         "run_at": "document_end"
         }
